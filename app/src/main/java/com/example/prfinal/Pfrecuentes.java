@@ -1,0 +1,32 @@
+package com.example.prfinal;
+
+import android.annotation.SuppressLint;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageButton;
+
+
+import androidx.appcompat.app.AppCompatActivity;
+
+public class Pfrecuentes extends AppCompatActivity {
+
+    ImageButton reeg;
+
+    @SuppressLint("MissingInflatedId")
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_pfrecuentes);
+
+        reeg = findViewById(R.id.reg14);
+        reeg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Pfrecuentes.this, ayuda.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+    }
+}

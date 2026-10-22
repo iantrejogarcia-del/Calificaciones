@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAEBD7"
+    tools:context=".T_condicion">
+
+    <ScrollView
+        android:layout_width="425dp"
+        android:layout_height="911dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <ImageButton
+                android:id="@+id/reg14"
+                android:layout_width="wrap_content"
+                android:layout_height="53dp"
+                app:srcCompat="@drawable/baseline_arrow_back_ios_new_24" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="386dp"
+                android:layout_height="wrap_content"
+                android:text="PREGUNTAS FRECUENTES"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:gravity="center"
+                android:text="¿Cómo ingreso mis calificaciones en la aplicación?"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="377dp"
+                android:layout_height="130dp"
+                android:layout_marginBottom="16dp"
+                android:gravity="center"
+                android:text=" Para ingresar tus calificaciones, selecciona la opción  en el menú principal, ingresa el semestre que quieras agregar y luego añade las calificaciones generales obtenidas de cada materia que hayas completado."
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="@color/black" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:gravity="center"
+                android:text="¿Puedo editar una calificación ya ingresada?"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="157dp"
+                android:layout_marginBottom="16dp"
+                android:gravity="center"
+                android:text="Sí, puedes editar cualquier calificación. Simplemente ingresa el numero de semestre en el cual quieras modificar tu calificación, selecciona la calificación que deseas modificar y utiliza el botón modificar que se encuentra disponible para realizar los cambios necesarios.
+"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:gravity="center"
+                android:text="¿Puedo ver un historial de mis promedios de semestres anteriores?"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="131dp"
+                android:layout_marginBottom="16dp"
+                android:gravity="center"
+                android:text="Sí, la aplicación guarda un historial de tus promedios de semestres anteriores. Puedes acceder a este historial ingresando el número de semestre que deseas buscar y después presionando el botón correspondiente,todo esto se encuentra en la ventana principal."
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:gravity="center"
+                android:text="¿La aplicación funciona sin conexión a internet?"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:gravity="center"
+                android:text=" Sí, la aplicación funciona sin conexión a internet para ingresar,modificar y consultar tus calificaciones. Sin embargo, necesitarás una conexión a internet para funciones como el desplazarte a nuestras cuentas de redes sociales."
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:gravity="center"
+                android:text="¿Cómo se calcula el promedio general del semestre?"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:gravity="center"
+                android:text="El promedio general del semestre se calcula sumando todas las calificaciones obtenidas en las materias y luego dividiendo por el número de materias del semestre."
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="@color/black" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
